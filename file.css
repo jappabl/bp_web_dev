@@ -1,0 +1,158 @@
+.about-the-author{
+    font-weight: bold;
+    font-size: 2em;
+    color:aquamarine
+}
+
+* {
+    font-family: "Raleway", serif;
+}
+ol{
+    
+        list-style-type: decimal;
+        margin-left: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+
+button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.10px;
+    letter-spacing: 1px;
+    transition: all 0.1s ease-in-out;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#submit{
+    background-color: aquamarine;
+    width: 200px;
+}
+
+#submit:hover{
+    background-color: aquamarine;
+}
+
+#random{
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    width: 200px;
+}
+
+@keyframes color-change {
+    0% {background-color: aquamarine;}
+    1% {background-color: blue;}
+    2% {background-color: green;}
+    3% {background-color: yellow;}
+    4% {background-color: orange;}
+    5% {background-color: red;}
+    6% {background-color: purple;}
+    7% {background-color: pink;}
+    8% {background-color: brown;}
+    9% {background-color: gray;}
+    10% {background-color: aquamarine;}
+    11% {background-color: blue;}
+    12% {background-color: green;}
+    13% {background-color: yellow;}
+    14% {background-color: orange;}
+    15% {background-color: red;}
+    16% {background-color: purple;}
+    17% {background-color: pink;}
+    18% {background-color: brown;}
+    19% {background-color: gray;}
+    20% {background-color: aquamarine;}
+    21% {background-color: blue;}
+    22% {background-color: green;}
+    23% {background-color: yellow;}
+    24% {background-color: orange;}
+    25% {background-color: red;}
+    26% {background-color: purple;}
+    27% {background-color: pink;}
+    28% {background-color: brown;}
+    29% {background-color: gray;}
+    30% {background-color: aquamarine;}
+    31% {background-color: blue;}
+    32% {background-color: green;}
+    33% {background-color: yellow;}
+    34% {background-color: orange;}
+    35% {background-color: red;}
+    36% {background-color: purple;}
+    37% {background-color: pink;}
+    38% {background-color: brown;}
+    39% {background-color: gray;}
+    40% {background-color: aquamarine;}
+    41% {background-color: blue;}
+    42% {background-color: green;}
+    43% {background-color: yellow;}
+    44% {background-color: orange;}
+    45% {background-color: red;}
+    46% {background-color: purple;}
+    47% {background-color: pink;}
+    48% {background-color: brown;}
+    49% {background-color: gray;}
+    50% {background-color: aquamarine;}
+    51% {background-color: blue;}
+    52% {background-color: green;}
+    53% {background-color: yellow;}
+    54% {background-color: orange;}
+    55% {background-color: red;}
+    56% {background-color: purple;}
+    57% {background-color: pink;}
+    58% {background-color: brown;}
+    59% {background-color: gray;}
+    60% {background-color: aquamarine;}
+    61% {background-color: blue;}
+    62% {background-color: green;}
+    63% {background-color: yellow;}
+    64% {background-color: orange;}
+    65% {background-color: red;}
+    66% {background-color: purple;}
+    67% {background-color: pink;}
+    68% {background-color: brown;}
+    69% {background-color: gray;}
+    70% {background-color: aquamarine;}
+    71% {background-color: blue;}
+    72% {background-color: green;}
+    73% {background-color: yellow;}
+    74% {background-color: orange;}
+    75% {background-color: red;}
+    76% {background-color: purple;}
+    77% {background-color: pink;}
+    78% {background-color: brown;}
+    79% {background-color: gray;}
+    80% {background-color: aquamarine;}
+    81% {background-color: blue;}
+    82% {background-color: green;}
+    83% {background-color: yellow;}
+    84% {background-color: orange;}
+    85% {background-color: red;}
+    86% {background-color: purple;}
+    87% {background-color: pink;}
+    88% {background-color: brown;}
+    89% {background-color: gray;}
+    90% {background-color: aquamarine;}
+    91% {background-color: blue;}
+    92% {background-color: green;}
+    93% {background-color: yellow;}
+    94% {background-color: orange;}
+    95% {background-color: red;}
+    96% {background-color: purple;}
+    97% {background-color: pink;}
+    98% {background-color: brown;}
+    99% {background-color: gray;}
+    100% {background-color: aquamarine;}
+}
